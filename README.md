@@ -4,5 +4,5 @@ paste the text directly or just use our Chrome Extension. This app was developed
 Python libraries.
 
 #### Resources and Articles
-[How I Created a Fake News Detector with Python](https://towardsdatascience.com/how-i-created-a-fake-news-detector-with-python-65b1234123c4)
+[Fake News Detection Using Machine Learning Ensemble Methods](https://www.hindawi.com/journals/complexity/2020/8885861/)
 
