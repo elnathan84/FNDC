@@ -39,7 +39,7 @@ nlp = get_nlp_model('model')
 
 desc = "This web app detects fake news written in the English Language.\
         You can either enter the URL of a news article, paste the text directly or just use our Chrome Extension.\
-        This app was developed with the Streamlit and spacy Python libraries.\
+        This app was developed with the Streamlit and Spacy Python libraries.\
         This app is modeled and created using the formula and dataset training from (https://github.com/derevirn/gfn-detector).\
         "
 
