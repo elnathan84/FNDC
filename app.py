@@ -5,7 +5,7 @@ from spacy.lang.en.stop_words import STOP_WORDS
 from wordcloud import WordCloud
 from utils import get_page_text
 
-st.set_page_config(page_title = "Jopak's Fake News Detector")
+st.set_page_config(page_title = "Fake News Detector")
 
 @st.cache(allow_output_mutation=True)
 def get_nlp_model(path):
