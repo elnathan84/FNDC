@@ -43,7 +43,7 @@ desc = "This web app detects fake news written in the English Language.\
         This app is modeled and created using the formula and dataset training from (https://github.com/derevirn/gfn-detector).\
         "
 
-st.title("Jopak's Fake News Detector")
+st.title("Fake News Detector")
 st.markdown(desc)
 st.subheader("Enter the URL address/text of a news article written in English")
 select_input = st.radio("Select Input:", ["URL", "Text"])
