@@ -1,0 +1,22 @@
+{
+    "name": "Fake News Detection PH",
+    "description": "Fake News Detection PH Chrome Extension",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_icon": "photos/16x16.png",
+      "default_popup": "popup.html"
+  },
+    "icons":{
+        "16" : "photos/16x16.png",
+        "32" : "photos/32x32.png",
+        "64" : "photos/64x64.png",  
+        "128" : "photos/128x128.png"
+    },
+      "permissions": [      
+        "activeTab",
+        "https://fakenewsdetectorph.et.r.appspot.com/",
+        "<all_urls>",
+        "https://ajax.googleapis.com/"
+      ]
+}
