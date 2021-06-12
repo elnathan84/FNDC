@@ -11,6 +11,7 @@ st.set_page_config(page_title = "Fake News Detector")
 def get_nlp_model(path):
     return spacy.load(path)
 
+
 def generate_output(text):
      cats = nlp(text).cats
      if cats['FAKE'] > cats['REAL']:
